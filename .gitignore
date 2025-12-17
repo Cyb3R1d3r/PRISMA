@@ -23,3 +23,4 @@ frontend/build/
 .env
 backend/src/main/resources/application-local.yml
 backend/src/main/resources/application-dev.yml
+
