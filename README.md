@@ -8,3 +8,18 @@
 
 ## Status
 Early development — currently bootstrapping repository, database, and backend foundations.
+
+## Local Database Setup
+
+PRISMA uses PostgreSQL for local development.
+
+### Prerequisites
+- PostgreSQL installed locally (v13+ recommended)
+
+### Create database and user
+Run the following commands in `psql` or pgAdmin:
+
+```sql
+CREATE USER prisma WITH PASSWORD 'CHANGE_ME';
+CREATE DATABASE prisma OWNER prisma;
+GRANT ALL PRIVILEGES ON DATABASE prisma TO prisma;
