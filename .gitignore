@@ -1,0 +1,25 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Backend build
+backend/.gradle/
+backend/build/
+backend/out/
+
+# Frontend build (later)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Logs
+*.log
+
+# Local secrets / configs
+.env
+backend/src/main/resources/application-local.yml
+backend/src/main/resources/application-dev.yml
